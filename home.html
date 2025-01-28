@@ -16,7 +16,7 @@
         .container {
             max-width: 1200px;
             padding: 2px;
-			margin-top:6.5rem;
+			margin-top:7rem;
 
         }
 		
@@ -230,6 +230,7 @@ margin-top:2rem;
         display: block;    
 		}
  @media (max-width: 768px) {
+	 .container{margin-top:10rem;}
             .welcome-header {
                 flex-direction: column;
                 text-align: center;
@@ -258,7 +259,9 @@ margin-right:2rem;
             .games-section {
                 grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
             }
-        }
+        .two-players-section{ grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))}
+	 .quiz-section{ grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))}
+ }
 
         @media (max-width: 480px) {
             .game-card img {
@@ -268,7 +271,7 @@ margin-right:2rem;
             h2 {
                 font-size: 1.2rem;
             }
-        }
+	}
 		</style>
 		
 </head>
