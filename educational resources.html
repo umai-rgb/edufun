@@ -176,11 +176,10 @@ body, html {
 }
  @media (max-width: 768px) {
             .card {
-				width:200px;
+				width:350px;
 				height:700px;
-				left:-120px;
-		    margin-top:8rem;
-		    
+				left:-130px;
+				
 				
             }
 
@@ -235,11 +234,9 @@ padding:2px;
 	 archiving. This subject prepares students to effectively manage and 
 	 preserve both physical and digital archives, ensuring their accessibility and longevity.
   </div>
-   <div class="button-group">
    <div class="button-container">
   <button class="btn-sub"  onclick="location.href='IMD313.html';">Learn more</button>
     <button class="btn-sub" onclick="location.href='archquiz.html';">Play Quiz</button>
-</div>
   </div>
   <div class="bar">
     <div class="emptybar"></div>
@@ -367,7 +364,6 @@ customizing the website, and handling various functions related to web managemen
     </nav>
 	<div id="notification-section">
     <div class="notification-header">
-        Notifications
     </div>
     <div class="notification-body">
         <div class="notification-item">
@@ -380,24 +376,6 @@ customizing the website, and handling various functions related to web managemen
     </div>
 </div>
 
-<script>
-// Function to open the notification
-function showNotification() {
-    const notification = document.getElementById('notification-section');
-    notification.classList.add('open'); // Show the notification
-    setTimeout(() => {
-        notification.classList.add('fade-out'); // Fade out after 5 seconds
-        setTimeout(() => {
-            notification.classList.remove('open', 'fade-out'); // Reset for next time
-        }, 1000); // Allow time for fading out before resetting
-    }, 5000); // Keep the notification visible for 5 seconds
-}
-
-// Call showNotification when needed (e.g., on page load, button click, etc.)
-window.onload = () => {
-    showNotification(); // Automatically show notification on page load
-};
-</script>
 	<div id="chat-section">
     <div class="chat-header">
         <h3>Friends Chat</h3>
