@@ -176,9 +176,9 @@ body, html {
 }
  @media (max-width: 768px) {
             .card {
-				max-width:700px;
-				height:400px;
-				left:-90px;
+				max-width:800px;
+				height:700px;
+				left:-120px;
 				
             }
 
@@ -189,6 +189,13 @@ body, html {
             .content {
                 font-size: 12px;
             }
+			/* Susunan menegak untuk skrin kecil */
+  .button-container {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 10px; /* Jarak antara butang */
+  }
+
 .button-group {
 gap:3px;
 padding:2px;
@@ -196,7 +203,7 @@ padding:2px;
             .btn-sub {
                 font-size: 12px;
                 padding: 5px;
-				margin-top:12rem;
+				margin-top:30rem;
 
 
             }
@@ -227,9 +234,10 @@ padding:2px;
 	 preserve both physical and digital archives, ensuring their accessibility and longevity.
   </div>
    <div class="button-group">
+   <div class="button-container">
   <button class="btn-sub"  onclick="location.href='IMD313.html';">Learn more</button>
     <button class="btn-sub" onclick="location.href='archquiz.html';">Play Quiz</button>
-
+</div>
   </div>
   <div class="bar">
     <div class="emptybar"></div>
