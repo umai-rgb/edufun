@@ -264,19 +264,26 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 0 0 20px rgba(39, 117, 252, 0.8);    
 .follow-btn:hover {
     background: #1b60db;
 }
-        @media (max-width: 768px) {			
+        @media (max-width: 768px) {	
+		.user-profiles {
+		width:100%;
+		margin-left:-10px;}
+
+
+		
 		.user-card {
-	margin-left:2rem;
-	margin-right:2rem;
+	margin-left:1rem;
+	margin-right:1rem;
 width:90%;
 padding:10px;
-
+flex-wrap:wrap;
 	}
-		.user-profiles {
-		width:100%;}
+	.invite-btn, .follow-btn {
+	display:flex;
+	flex-wrap:wrap;
+	}
 
 }
-
 
     </style>
 </head>
