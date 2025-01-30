@@ -398,6 +398,16 @@ html::-webkit-scrollbar-thumb {
 #friend-btn {
     position: relative;
 }
+ @media (max-width: 767px) {
+	 .chat-footer input {
+	 padding: 2px;}
+	 .chat-footer button {
+		 flex-wrap:wrap;
+	 }
+
+
+ }
+
 
  @media (max-width: 767px) {
             .top-navbar {
